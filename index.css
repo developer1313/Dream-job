@@ -8,6 +8,7 @@
     .navbar-custom {
       background: #07351a;
     }
+    
 
     .navbar-custom .nav-link {
       color: #dfeee6 !important;
@@ -17,7 +18,9 @@
       border-bottom: 2px solid #fff;
     }
 
-
+    .btn-success{
+      background-color: #07351a !important;
+    }
     /* ===== HERO ===== */
     .hero-section {
       background: linear-gradient(135deg, #f5f7f6, #e9ecef);
@@ -55,15 +58,15 @@
       left: -50px;
       /* background: #07351a; */
       color: #fff;
-      width: 350px;
+      width: 300px;
       
     }
 
     .card-2 {
       z-index: 999990999;
-      bottom: -100px;
-      right: -150px;
-       width: 350px;
+      bottom: -20%;
+      right: -10%;
+       width: 300px;
       /* background: #fff; */
       /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
     }
@@ -246,7 +249,8 @@
     .service-tag {
       font-size:12px;
       letter-spacing:1px;
-      color:#a56a2c;
+      
+      /* color:#a56a2c; */
     }
 
     .arrow {
@@ -277,8 +281,8 @@
 
 
       .card-green {
-    background: #07351A;
-    color: #fff;
+    background-color: #07351A !important;
+    color: #fff !important;
     border-radius: 20px;
       /* rotate: 30deg; */
   }
@@ -319,7 +323,7 @@
 .hero-section .eyebrow {
   font-size: 12px;
   letter-spacing: 2px;
-  color: #b4532a;
+  /* color: #b4532a; */
   font-weight: 600;
 }
 
@@ -331,7 +335,7 @@
 }
 
 .hero-section .hero-title span {
-  color: #2f5d2f;
+  color: #07351a;
   font-style: italic;
 }
 
@@ -353,7 +357,7 @@
 }
 
 .hero-section .feature-list li::marker {
-  color: #b4532a;
+  /* color: #b4532a; */
 }
 
 .hero-section .custom-btn {
@@ -495,3 +499,7 @@
     width: 100%;
   }
 }
+
+.text-success{
+      color: #07351a !important;
+    }
