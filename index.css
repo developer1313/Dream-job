@@ -58,7 +58,7 @@
       left: -20%;
       /* background: #07351a; */
       color: #fff;
-      width: 300px;
+      width: 280px;
       
     }
 
@@ -357,9 +357,9 @@
   color: #222;
 }
 
-.hero-section .feature-list li::marker {
-  /* color: #b4532a; */
-}
+/* .hero-section .feature-list li::marker {
+  color: #b4532a;
+} */
 
 .hero-section .custom-btn {
   margin-top: 20px;
