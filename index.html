@@ -11,7 +11,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
+<style>
+  .text-success{
+      color: #07351a !important;
+    }
 
+  .bg-success{
+    background-color: #07351a !important;
+  }  
+</style>
 </head>
 
 <body>
@@ -32,7 +40,7 @@
           <li class="nav-item"><a class="nav-link active px-5" href="#">Home</a></li>
           <!-- <li class="nav-item"><a class="nav-link px-5" href="#">Browse Jobs</a></li> -->
           <li class="nav-item"><a class="nav-link px-5" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link px-5" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link px-2" href="#">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -41,7 +49,7 @@
 
 
   <!-- ===== HERO SECTION ===== -->
-  <section class="hero-section py-5">
+  <section class="hero-section py-5 m-0">
     <div class="container py-5">
       <div class="row align-items-center g-5">
 
@@ -129,21 +137,21 @@
 
                   <!-- Card 1 -->
                   <div class="col-12">
-                    <div class="card card-green p-2 shadow border-0">
+                    <div class="card card-green p-2 shadow border-0 rounded-4">
                       <small class="text-uppercase opacity-75">Resume Parsed</small>
                       <h6 class="mt-2">Match score</h6>
 
-                      <h1 class="fw-bold text-success">92%</h1>
+                      <h1 class="fw-bold text-white">92%</h1>
                       <small class="opacity-75">vs role brief</small>
 
-                      <div class="progress my-3">
+                      <div class="progress my-3" style="height: 6px;">
                         <div class="progress-bar" style="width: 92%"></div>
                       </div>
 
                       <div class="d-flex flex-wrap gap-2">
                         <span class="badge-soft">Strategy</span>
                         <span class="badge-soft">SaaS</span>
-                        <span class="badge-soft bg-success text-dark">+3 more</span>
+                        <span class="badge-soft bg-white text-dark">+3 more</span>
                       </div>
                     </div>
                   </div>
@@ -167,16 +175,16 @@
                           <h6 class="mb-1">Careem · Recruiter</h6>
                           <small class="text-muted">Reached out · 2m ago</small>
                         </div>
-                        <span class="badge bg-success text-dark">NEW</span>
+                        <span class="badge bg-success text-white">NEW</span>
                       </div>
 
-                      <p class="mt-3 mb-4 text-muted">
+                      <p class="mt-3 mb-4 text-muted" style="text-align: left;">
                         "Your profile fits a Lead PM role we're hiring for in Riyadh."
                       </p>
 
                       <div class="d-flex gap-2">
                         <button class="btn btn-outline-secondary rounded-pill px-3">Decline</button>
-                        <button class="btn btn-accept px-3">Accept →</button>
+                        <button class="btn btn-accept px-3 btn-success rounded-pill">Accept →</button>
                       </div>
                     </div>
                   </div>
@@ -193,7 +201,7 @@
 
 
   <!-- ===== CATEGORY SECTION ===== -->
-  <section class="category-section py-5 mt-5">
+  <section class="category-section py-5 mt-5" style="display: none;">
     <div class="container">
 
       <!-- HEADER -->
@@ -306,7 +314,7 @@
     </div>
   </section>
 
-  <section class="jobs-section py-5">
+  <section class="jobs-section py-5" style="display: none;">
     <div class="container">
 
       <!-- Header -->
@@ -479,8 +487,8 @@
     </div>
   </section>
 
-  <section class="how-section py-5 text-center">
-    <div class="container">
+  <section class="how-section py-5 text-center mt-5">
+    <div class="container py-5 mt-5">
 
       <!-- Header -->
       <h2 class="fw-bold mb-2">How It Works</h2>
@@ -629,7 +637,7 @@
       <!-- Header -->
       <div class="row align-items-center mb-5">
         <div class="col-lg-7">
-          <small class="service-tag d-block mb-2">CAREER SOLUTIONS</small>
+          <small class="service-tag text-success d-block mb-2">CAREER SOLUTIONS</small>
           <h2 class="fw-bold">
             Five services. One <em>strategic</em> objective.
           </h2>
@@ -646,7 +654,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card position-relative">
             <div class="arrow">↗</div>
-            <small class="service-tag">SERVICE 01</small>
+            <small class="service-tag text-success">SERVICE 01</small>
             <h5 class="mt-2">Resume Writing</h5>
             <p class="text-muted small mb-0">
               Positioned. Polished. Reviewed by recruiters who hire across the GCC.
@@ -658,7 +666,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card position-relative">
             <div class="arrow">↗</div>
-            <small class="service-tag">SERVICE 02</small>
+            <small class="service-tag text-success">SERVICE 02</small>
             <h5 class="mt-2">LinkedIn Optimization</h5>
             <p class="text-muted small mb-0">
               A profile that surfaces in the right searches, at the right time.
@@ -670,7 +678,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card position-relative">
             <div class="arrow">↗</div>
-            <small class="service-tag">SERVICE 03</small>
+            <small class="service-tag text-success">SERVICE 03</small>
             <h5 class="mt-2">Interview Preparation</h5>
             <p class="text-muted small mb-0">
               Walk into the room with a clear narrative and a stronger presence.
@@ -682,7 +690,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card position-relative">
             <div class="arrow">↗</div>
-            <small class="service-tag">SERVICE 04</small>
+            <small class="service-tag text-success">SERVICE 04</small>
             <h5 class="mt-2">Career Navigator</h5>
             <p class="text-muted small mb-0">
               Stop applying. Start being found by the right people.
@@ -694,7 +702,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card position-relative">
             <div class="arrow">↗</div>
-            <small class="service-tag">SERVICE 05</small>
+            <small class="service-tag text-success">SERVICE 05</small>
             <h5 class="mt-2">Leadership Aid</h5>
             <p class="text-muted small mb-0">
               An end-to-end positioning programme for senior & C-suite professionals.
