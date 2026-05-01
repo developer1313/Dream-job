@@ -1,0 +1,80 @@
+
+    /* ===== GLOBAL ===== */
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    /* ===== NAVBAR ===== */
+    .navbar-custom {
+      background: #07351a;
+    }
+    
+
+    .navbar-custom .nav-link {
+      color: #dfeee6 !important;
+    }
+
+    .navbar-custom .nav-link.active {
+      border-bottom: 2px solid #fff;
+    }
+
+    .btn-success{
+      background-color: #07351a !important;
+    }
+
+
+
+    .about-section {
+  background-color: #f7f5f2;
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+.stat-box {
+  background: #ffffff;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+h1 span.text-success {
+  color: #3b5f1e !important; /* match your green tone */
+}
+
+
+.form-control {
+  border: 1px solid #e5e5e5;
+  padding: 12px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #07351a;
+}
+
+.shadow-sm {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05) !important;
+}
+
+        .footer-section {
+      background:#07351A;
+      color:#cfd8c3;
+    }
+    .footer-section a {
+      color:#cfd8c3;
+      text-decoration:none;
+      font-size:14px;
+    }
+    .footer-section a:hover {
+      color:#fff;
+    }
+    .footer-bottom {
+      border-top:1px solid rgba(255,255,255,0.1);
+      font-size:13px;
+    }
